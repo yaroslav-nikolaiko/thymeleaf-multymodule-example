@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorator="layouts/layout">
+<head>
+    <title>Task List</title>
+    ...
+</head>
+<body>
+<!-- /* Content of this page will be decorated by the elements of layout.html (task/layout) */ -->
+<div layout:fragment="content" class="">
+    <h1 th:text="${name}">Hello World</h1>
+</div>
+</body>
+</html>
+
